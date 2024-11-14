@@ -7,6 +7,6 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://spooky-th-ghost.github.io',
-	base: '/personal-site',
+	base: 'personal-site',
 	integrations: [mdx(), sitemap()],
 });
