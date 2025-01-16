@@ -141,6 +141,17 @@ hr {
 	}
 }
 
+ul.split-list {
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  height: 12vh;
+}
+
+ul.split-list > li{
+	flex: 2 0 50%;
+}
+
 .sr-only {
 	border: 0;
 	padding: 0;
